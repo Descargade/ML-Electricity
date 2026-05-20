@@ -9,19 +9,19 @@ export function Logo({ className = "", ...props }: React.SVGProps<SVGSVGElement>
     >
       <defs>
         <linearGradient id="bolt-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#00BFFF" />
-          <stop offset="50%" stopColor="#00E5FF" />
-          <stop offset="100%" stopColor="#FFD700" />
+          <stop offset="0%" stopColor="#4DA3FF" />
+          <stop offset="50%" stopColor="#7C5CFF" />
+          <stop offset="100%" stopColor="#5EEAD4" />
         </linearGradient>
         <filter id="bolt-glow" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="6" result="blur" />
+          <feGaussianBlur stdDeviation="4" result="blur" />
           <feComposite in="SourceGraphic" in2="blur" operator="over" />
         </filter>
       </defs>
       
       {/* Background circle outline */}
-      <circle cx="50" cy="50" r="45" stroke="#00BFFF" strokeWidth="2" strokeOpacity="0.2" fill="none" />
-      <circle cx="50" cy="50" r="40" stroke="#FFD700" strokeWidth="1" strokeOpacity="0.1" fill="none" strokeDasharray="4 4" />
+      <circle cx="50" cy="50" r="45" stroke="#4DA3FF" strokeWidth="1.5" strokeOpacity="0.15" fill="none" />
+      <circle cx="50" cy="50" r="40" stroke="#7C5CFF" strokeWidth="1" strokeOpacity="0.08" fill="none" strokeDasharray="4 4" />
       
       {/* Lightning Bolt */}
       <path

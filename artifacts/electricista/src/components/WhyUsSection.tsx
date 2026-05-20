@@ -35,7 +35,7 @@ export function WhyUsSection() {
               {/* Animated scanner line effect */}
               <div className="absolute inset-0 -translate-y-full group-hover:translate-y-full transition-transform duration-1000 ease-in-out bg-gradient-to-b from-transparent via-primary/20 to-transparent w-full h-[50px] opacity-0 group-hover:opacity-100 pointer-events-none" />
 
-              <div className="w-16 h-16 rounded-full bg-background border border-primary/20 flex items-center justify-center mb-6 group-hover:border-primary/50 transition-colors shadow-[0_0_15px_rgba(0,191,255,0.1)] group-hover:shadow-[0_0_25px_rgba(0,191,255,0.3)]">
+              <div className="w-16 h-16 rounded-full bg-card border border-white/8 flex items-center justify-center mb-6 group-hover:border-primary/30 transition-all shadow-[0_2px_16px_rgba(0,0,0,0.3)] group-hover:shadow-[0_4px_24px_rgba(77,163,255,0.15)]">
                 <feature.icon className="w-8 h-8 text-primary" />
               </div>
               <h4 className="font-serif font-semibold text-lg tracking-wide">{feature.text}</h4>

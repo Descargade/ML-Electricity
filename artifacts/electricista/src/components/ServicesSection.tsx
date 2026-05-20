@@ -67,13 +67,13 @@ function TiltCard({ service, index }: { service: any; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, delay: index * 0.2 }}
-      className="relative glass-panel rounded-3xl p-8 sm:p-10 cursor-pointer overflow-hidden border border-white/5 hover:border-primary/30 transition-colors duration-300"
+      className="relative glass-panel rounded-3xl p-8 sm:p-10 cursor-pointer overflow-hidden border border-white/5 hover:border-primary/20 transition-all duration-300 shadow-[0_2px_40px_rgba(0,0,0,0.3)] hover:shadow-[0_4px_60px_rgba(0,0,0,0.45)]"
     >
       <div className="card-tilt-glow" />
       
       <div style={{ transform: "translateZ(50px)" }} className="relative z-20">
-        <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-8 border border-primary/20 shadow-[0_0_20px_rgba(0,191,255,0.2)]">
-          <service.icon className="w-8 h-8 text-primary drop-shadow-[0_0_8px_rgba(0,191,255,0.8)]" />
+        <div className="w-16 h-16 rounded-2xl bg-primary/8 flex items-center justify-center mb-8 border border-primary/15 shadow-[0_4px_24px_rgba(77,163,255,0.12)]">
+          <service.icon className="w-8 h-8 text-primary drop-shadow-[0_0_6px_rgba(77,163,255,0.5)]" />
         </div>
         
         <h3 className="text-2xl font-serif font-bold mb-4 text-foreground">{service.title}</h3>

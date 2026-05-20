@@ -1,0 +1,132 @@
+IMPORTANTE:
+La funcionalidad está perfecta (animaciones, canvas, GSAP, layout, interacción).
+NO quiero que cambies la arquitectura ni las features.
+
+SOLO QUIERO MEJORAS VISUALES, ART DIRECTION Y UI POLISH DE NIVEL AGENCIA PREMIUM.
+
+PROBLEMA ACTUAL:
+El diseño funciona bien pero los colores y el look general todavía se sienten un poco “genéricos neon tech”.
+Quiero que evolucione a algo mucho más estético, elegante y cinematográfico.
+
+OBJETIVO:
+Transformar la UI en una landing page de nivel:
+
+Apple / Stripe / Tesla landing style
+estética premium real
+colores más sofisticados
+mejor jerarquía visual
+menos “gaming neon”, más “luxury tech”
+
+REEMPLAZAR PALETA ACTUAL:
+
+❌ Evitar:
+
+cyan saturado excesivo (#00BFFF)
+amarillo fuerte tipo warning (#FFD700)
+glow demasiado intenso tipo gaming
+
+✅ NUEVA PALETA PREMIUM:
+
+Fondo principal:
+
+negro azulado profundo (#070A12)
+gris noche elegante (#0B1020)
+
+Color primario:
+
+azul eléctrico suave (#4DA3FF)
+
+Color secundario:
+
+violeta tecnológico (#7C5CFF)
+
+Acento premium:
+
+cyan suave desaturado (#5EEAD4)
+
+Highlights:
+
+blanco cálido (#E6EDF7)
+
+Sombras:
+
+negro azulado transparente (rgba(0,0,0,0.5))
+Reducir intensidad de glow en 40%
+Hacer luces más suaves y difusas
+Cambiar “neon agresivo” por “ambient light glow”
+Agregar profundidad con sombras reales (layered UI)
+Mejorar contraste tipográfico (menos brillo, más elegancia)
+
+Mantener:
+
+Orbitron SOLO para títulos grandes
+
+AGREGAR / priorizar:
+
+Inter (UI principal)
+Space Grotesk para textos secundarios
+
+Cambiar:
+
+menos uso de mayúsculas agresivas
+más jerarquía editorial tipo landing de Stripe
+
+Mejorar:
+
+Cards de servicios:
+menos glow
+más glassmorphism real (blur + border sutil)
+sombras profundas suaves
+borde fino con gradiente invisible
+Botones:
+eliminar brillo excesivo
+hacer hover más elegante (lift + soft glow)
+animación más sutil (menos “gaming”)
+Hero:
+bajar saturación del canvas particles
+hacer fondo más atmosférico (niebla ligera / gradient mesh)
+mejorar contraste del texto con overlay oscuro suave
+Layout:
+más aire (spacing premium)
+mejor grid alignment
+menos elementos “ruidosos”
+
+Quiero que ahora se sienta:
+
+elegante
+caro
+tecnológico premium
+minimalista
+cinematográfico
+tipo SaaS de alta gama
+
+NO debe sentirse:
+
+gamer
+cyberpunk agresivo
+saturado
+infantil
+
+NO agregues nuevas features.
+
+SOLO:
+
+mejorar colores
+mejorar tipografía
+mejorar sombras
+mejorar contraste
+mejorar estética general
+refinar UX visual
+
+========================================
+
+RESULTADO ESPERADO:
+Debe parecer una landing page de una empresa tecnológica premium de nivel internacional (Stripe / Apple style), pero para un electricista moderno.
+
+Matías Sebastián Ludovici debe verse como un servicio:
+
+confiable
+premium
+profesional
+moderno
+de alta calidad

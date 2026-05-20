@@ -55,7 +55,7 @@ function ElectricCanvas() {
     window.addEventListener("mousemove", onMouseMove);
 
     const PARTICLE_COUNT = 200;
-    const COLORS = ["#00BFFF", "#00E5FF", "#FFD700", "#00BFFF", "#00BFFF"];
+    const COLORS = ["#4DA3FF", "#5EEAD4", "#7C5CFF", "#4DA3FF", "#4DA3FF"];
 
     const particles: Particle[] = Array.from({ length: PARTICLE_COUNT }, () => ({
       x: Math.random() * canvas.width,
@@ -77,7 +77,7 @@ function ElectricCanvas() {
       progress: Math.random(),
       speed: 0.002 + Math.random() * 0.003,
       alpha: 0.3 + Math.random() * 0.4,
-      color: Math.random() > 0.3 ? "#00BFFF" : "#FFD700",
+      color: Math.random() > 0.5 ? "#4DA3FF" : "#7C5CFF",
     }));
 
     const draw = () => {
@@ -87,7 +87,7 @@ function ElectricCanvas() {
       const mx = mouseRef.current.x || canvas.width / 2;
       const my = mouseRef.current.y || canvas.height / 2;
       const grd = ctx.createRadialGradient(mx, my, 0, mx, my, 350);
-      grd.addColorStop(0, "rgba(0, 191, 255, 0.06)");
+      grd.addColorStop(0, "rgba(77, 163, 255, 0.04)");
       grd.addColorStop(1, "rgba(0, 0, 0, 0)");
       ctx.fillStyle = grd;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -194,8 +194,8 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0 bg-background">
         {mounted && <ElectricCanvas />}
         {/* Deep glow overlays */}
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] rounded-full bg-primary/10 blur-[120px] pointer-events-none" />
-        <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-yellow-400/5 rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] rounded-full bg-primary/8 blur-[160px] pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full blur-[120px] pointer-events-none" style={{ background: "rgba(124, 92, 255, 0.06)" }} />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
@@ -212,9 +212,9 @@ export function HeroSection() {
               key={i}
               className={`hero-word opacity-0 inline-block mr-4 mb-2 ${
                 i === 0
-                  ? "text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan-300 to-primary electric-text"
+                  ? "electric-text"
                   : i === 4 || i === 5
-                  ? "text-yellow-400"
+                  ? "text-foreground/50"
                   : "text-foreground"
               }`}
             >
@@ -235,7 +235,7 @@ export function HeroSection() {
             <Button
               asChild
               size="lg"
-              className="h-16 px-10 text-base rounded-full bg-primary hover:bg-primary/90 text-background font-bold tracking-wide shadow-[0_0_40px_rgba(0,191,255,0.4)] hover:shadow-[0_0_70px_rgba(0,191,255,0.7)] transition-all duration-300 w-full sm:w-auto"
+              className="h-16 px-10 text-base rounded-full bg-primary hover:bg-primary/90 text-background font-semibold tracking-wide shadow-[0_8px_32px_rgba(77,163,255,0.25)] hover:shadow-[0_8px_48px_rgba(77,163,255,0.40)] transition-all duration-300 w-full sm:w-auto"
             >
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" data-testid="hero-whatsapp-btn">
                 <Phone className="w-5 h-5 mr-3" />

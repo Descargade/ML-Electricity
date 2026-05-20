@@ -31,7 +31,7 @@ export function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "glass-panel border-b border-primary/20 py-4 shadow-[0_4px_30px_rgba(0,191,255,0.1)]" : "py-6 bg-transparent border-transparent"
+        scrolled ? "glass-panel border-b border-white/8 py-4 shadow-[0_8px_40px_rgba(0,0,0,0.4)]" : "py-6 bg-transparent border-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
@@ -53,7 +53,7 @@ export function Navbar() {
             </Button>
           </MagneticButton>
           <MagneticButton className="navbar-anim">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_0_20px_rgba(0,191,255,0.4)] hover:shadow-[0_0_30px_rgba(0,191,255,0.6)] rounded-full px-6 transition-all" asChild>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_4px_20px_rgba(77,163,255,0.3)] hover:shadow-[0_6px_28px_rgba(77,163,255,0.45)] rounded-full px-6 transition-all" asChild>
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" data-testid="nav-whatsapp">
                 <Phone className="w-4 h-4 mr-2" />
                 Contactar

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&family=Orbitron:wght@600;700;800;900&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/typography";
@@ -51,36 +51,36 @@
 }
 
 :root, .dark {
-  --background: 220 25% 6%;
-  --foreground: 210 20% 95%;
-  --border: 220 20% 15%;
-  --input: 220 20% 15%;
-  --ring: 195 100% 50%;
+  --background: 220 42% 4%;
+  --foreground: 214 50% 92%;
+  --border: 220 30% 13%;
+  --input: 220 30% 13%;
+  --ring: 214 100% 64%;
 
-  --card: 220 25% 9%;
-  --card-foreground: 210 20% 95%;
-  --card-border: 220 20% 15%;
+  --card: 220 38% 7%;
+  --card-foreground: 214 50% 92%;
+  --card-border: 220 30% 14%;
 
-  --popover: 220 25% 9%;
-  --popover-foreground: 210 20% 95%;
-  --popover-border: 220 20% 15%;
+  --popover: 220 38% 7%;
+  --popover-foreground: 214 50% 92%;
+  --popover-border: 220 30% 14%;
 
-  --primary: 195 100% 50%;
-  --primary-foreground: 220 25% 6%;
+  --primary: 214 100% 64%;
+  --primary-foreground: 220 42% 4%;
 
-  --secondary: 50 100% 50%;
-  --secondary-foreground: 220 25% 6%;
+  --secondary: 252 85% 67%;
+  --secondary-foreground: 220 42% 4%;
 
-  --muted: 220 20% 15%;
-  --muted-foreground: 210 20% 70%;
+  --muted: 220 30% 13%;
+  --muted-foreground: 214 25% 58%;
 
-  --accent: 195 100% 50%;
-  --accent-foreground: 210 20% 95%;
+  --accent: 173 55% 60%;
+  --accent-foreground: 220 42% 4%;
 
-  --destructive: 0 84% 60%;
-  --destructive-foreground: 210 20% 95%;
+  --destructive: 0 72% 55%;
+  --destructive-foreground: 214 50% 92%;
 
-  --app-font-sans: 'Space Grotesk', sans-serif;
+  --app-font-sans: 'Inter', sans-serif;
   --app-font-serif: 'Orbitron', sans-serif;
   --app-font-mono: 'Space Grotesk', monospace;
   --radius: 0.75rem;
@@ -99,18 +99,18 @@
 }
 
 .glow-text {
-  text-shadow: 0 0 15px hsl(var(--primary) / 0.6), 0 0 30px hsl(var(--primary) / 0.4);
+  text-shadow: 0 0 20px rgba(77, 163, 255, 0.35), 0 0 50px rgba(77, 163, 255, 0.15);
 }
 
 .glow-box {
-  box-shadow: 0 0 30px hsl(var(--primary) / 0.15), inset 0 0 20px hsl(var(--primary) / 0.1);
+  box-shadow: 0 0 60px rgba(77, 163, 255, 0.08), 0 24px 64px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.06);
 }
 
 .glass-panel {
-  background: rgba(12, 16, 24, 0.6);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 191, 255, 0.15);
+  background: rgba(9, 13, 24, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(77, 163, 255, 0.10);
 }
 
 .card-tilt-glow {
@@ -118,26 +118,26 @@
   inset: 0;
   z-index: 10;
   pointer-events: none;
-  background: radial-gradient(800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(0, 191, 255, 0.1), transparent 40%);
+  background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(77, 163, 255, 0.06), transparent 40%);
 }
 
 .font-display {
   font-family: 'Orbitron', sans-serif;
-  font-weight: 900;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .electric-text {
-  background: linear-gradient(135deg, #00BFFF 0%, #00E5FF 40%, #00BFFF 70%, #ffffff 100%);
+  background: linear-gradient(135deg, #4DA3FF 0%, #7C5CFF 45%, #5EEAD4 80%, #E6EDF7 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: electric-pulse 3s ease-in-out infinite;
+  animation: electric-pulse 5s ease-in-out infinite;
 }
 
 @keyframes electric-pulse {
-  0%, 100% { filter: drop-shadow(0 0 8px rgba(0, 191, 255, 0.7)); }
-  50% { filter: drop-shadow(0 0 20px rgba(0, 191, 255, 1)) drop-shadow(0 0 40px rgba(0, 191, 255, 0.5)); }
+  0%, 100% { filter: drop-shadow(0 0 6px rgba(77, 163, 255, 0.4)); }
+  50% { filter: drop-shadow(0 0 14px rgba(77, 163, 255, 0.6)) drop-shadow(0 0 28px rgba(124, 92, 255, 0.25)); }
 }
 
 @keyframes float-slow {

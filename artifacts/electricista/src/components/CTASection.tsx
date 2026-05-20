@@ -9,13 +9,13 @@ export function CTASection() {
   return (
     <section className="py-32 px-6 relative overflow-hidden flex items-center justify-center min-h-[70vh]">
       {/* Animated gradient background and lines */}
-      <div className="absolute inset-0 bg-primary/10" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/20 blur-[120px] rounded-full mix-blend-screen" />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(77,163,255,0.05) 0%, rgba(124,92,255,0.05) 100%)" }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[700px] rounded-full blur-[160px]" style={{ background: "radial-gradient(ellipse, rgba(77,163,255,0.10) 0%, rgba(124,92,255,0.06) 50%, transparent 70%)" }} />
       
       {/* Lightning CSS lines */}
       <div className="absolute inset-0 opacity-20 pointer-events-none">
-        <div className="absolute top-[20%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary to-transparent animate-pulse" />
-        <div className="absolute top-[60%] left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-secondary to-transparent animate-pulse delay-75" />
+        <div className="absolute top-[20%] left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" style={{ animation: "pulse 4s ease-in-out infinite" }} />
+        <div className="absolute top-[70%] left-0 w-full h-px bg-gradient-to-r from-transparent via-secondary/30 to-transparent" style={{ animation: "pulse 4s ease-in-out infinite 1.5s" }} />
       </div>
 
       <motion.div 
@@ -23,7 +23,7 @@ export function CTASection() {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 glass-panel border-primary/30 p-10 md:p-20 rounded-[3rem] text-center max-w-5xl mx-auto shadow-[0_0_50px_rgba(0,191,255,0.2)] glow-box"
+        className="relative z-10 glass-panel border-white/8 p-10 md:p-20 rounded-[3rem] text-center max-w-5xl mx-auto glow-box"
       >
         <h2 className="text-4xl md:text-6xl font-serif font-black mb-6 glow-text tracking-tight uppercase">
           ¿Necesitás asistencia<br/>eléctrica inmediata?
@@ -33,7 +33,7 @@ export function CTASection() {
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-6">
-          <Button asChild size="lg" className="h-16 px-10 text-xl rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_0_40px_rgba(0,191,255,0.6)] hover:shadow-[0_0_60px_rgba(0,191,255,0.8)] transition-all font-semibold tracking-wide w-full sm:w-auto">
+          <Button asChild size="lg" className="h-16 px-10 text-xl rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_8px_32px_rgba(77,163,255,0.30)] hover:shadow-[0_12px_48px_rgba(77,163,255,0.45)] transition-all duration-300 font-semibold tracking-wide w-full sm:w-auto">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" data-testid="cta-whatsapp">
               Hablar por WhatsApp
               <ArrowRight className="w-6 h-6 ml-3" />
