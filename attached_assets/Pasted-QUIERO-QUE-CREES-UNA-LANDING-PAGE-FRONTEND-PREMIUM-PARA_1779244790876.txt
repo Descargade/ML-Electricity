@@ -1,0 +1,148 @@
+QUIERO QUE CREES UNA LANDING PAGE FRONTEND PREMIUM PARA UN ELECTRICISTA PROFESIONAL.
+
+INSPIRACIÓN:
+Tomá como referencia el estilo visual moderno, oscuro, minimalista, tecnológico y elegante de esta web:
+https://hype-hood.vercel.app/
+
+OBJETIVO:
+Crear una página web profesional para ofrecer servicios de electricidad. Debe verse moderna, premium, confiable y visualmente impactante, pero manteniendo simplicidad y excelente experiencia de usuario.
+
+IMPORTANTE:
+
+* SOLO FRONTEND
+* NO backend
+* NO base de datos
+* NO login
+* NO panel admin
+* NO formularios funcionales
+* Solo botones de contacto por WhatsApp y mail
+* Debe ser extremadamente responsive
+* Optimizada para móviles
+* Muy rápida y limpia
+* Excelente estructura DOM y SEO básico
+* Código prolijo y profesional
+* Estilo moderno tipo startup premium
+* Animaciones suaves y elegantes
+* Usar React + Tailwind CSS
+* Diseño con modo oscuro predominante
+* Estética tecnológica/electro premium
+* Usar buenas prácticas de UI/UX
+
+NOMBRE DEL CLIENTE:
+Matías Sebastián Ludovici
+
+DATOS DE CONTACTO:
+Email: [matiludo095@gmail.com](mailto:matiludo095@gmail.com)
+WhatsApp/Teléfono: +54 2622 225260
+
+SERVICIOS:
+
+1. Instalaciones eléctricas
+2. Mantenimiento y reparación
+3. Solución de problemas y emergencias eléctricas
+
+ESTILO VISUAL:
+
+* Fondo oscuro elegante
+* Detalles eléctricos con glow azul/cian/amarillo eléctrico
+* Cards modernas con blur y glassmorphism suave
+* Tipografía moderna y fuerte
+* Mucho impacto visual en el hero
+* Diseño premium tipo empresa tecnológica
+* Transiciones suaves
+* Efectos hover modernos
+* Íconos minimalistas profesionales
+* Secciones bien espaciadas
+* Layout limpio y visualmente atractivo
+
+ESTRUCTURA DE LA WEB:
+
+1. HERO SECTION
+
+* Headline grande e impactante
+* Texto tipo:
+  “Soluciones eléctricas profesionales, rápidas y seguras.”
+* Subtexto moderno y confiable
+* Botones:
+
+  * Contactar por WhatsApp
+  * Enviar Email
+* Imagen/ilustración visual relacionada a electricidad moderna
+* Fondo con efectos de luces o gradientes eléctricos
+
+2. SECCIÓN SERVICIOS
+   Crear 3 cards premium:
+
+* Instalaciones eléctricas
+* Mantenimiento y reparación
+* Emergencias eléctricas
+
+Cada card debe tener:
+
+* Ícono moderno
+* Hover effect elegante
+* Pequeña descripción profesional
+
+3. SECCIÓN “POR QUÉ ELEGIRNOS”
+   Agregar puntos como:
+
+* Atención rápida
+* Trabajo profesional
+* Seguridad garantizada
+* Soluciones eficientes
+* Disponibilidad
+
+Diseño visual tipo grid moderno.
+
+4. SECCIÓN CTA
+   Una sección muy llamativa para contacto inmediato:
+   “¿Necesitás una solución eléctrica urgente?”
+
+Botones grandes:
+
+* WhatsApp
+* Email
+
+5. FOOTER
+   Minimalista y elegante con:
+
+* Nombre
+* Mail
+* Teléfono
+* Copyright moderno
+
+LOGO:
+Diseñá también un logo moderno integrado dentro de la página.
+
+REQUISITOS DEL LOGO:
+
+* Minimalista
+* Profesional
+* Relacionado a electricidad
+* Moderno
+* Puede combinar:
+
+  * Rayo
+  * Iniciales ML
+  * Energía
+  * Circuitos eléctricos
+* Colores:
+
+  * Azul eléctrico
+  * Amarillo eléctrico
+  * Blanco
+* Debe verse premium y tecnológico
+
+EXTRA:
+
+* Agregar animaciones suaves usando Framer Motion
+* Scroll animations elegantes
+* Navbar sticky moderna
+* Efecto glow en botones
+* Excelente experiencia móvil
+* Diseño tipo landing page premium de startup moderna
+
+IMPORTANTE:
+El resultado debe parecer una web profesional hecha por una agencia premium de diseño moderno.
+NO quiero algo genérico o básico.
+Quiero una landing page visualmente impactante y muy moderna.
