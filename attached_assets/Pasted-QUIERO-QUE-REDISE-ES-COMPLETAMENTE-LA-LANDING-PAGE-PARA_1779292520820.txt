@@ -1,0 +1,220 @@
+QUIERO QUE REDISEÑES COMPLETAMENTE LA LANDING PAGE PARA QUE SE VEA MUCHO MÁS PREMIUM, FUTURISTA, INTERACTIVA Y VISUALMENTE IMPACTANTE, INSPIRADA EN WEBS MODERNAS DE STARTUPS TECNOLÓGICAS DE ALTO NIVEL COMO:
+
+https://hype-hood.vercel.app/
+
+OBJETIVO PRINCIPAL:
+La web debe generar “WOW FACTOR” apenas entra el usuario.
+Quiero una experiencia visual moderna, inmersiva, dinámica y extremadamente fluida.
+Debe sentirse como una mezcla entre:
+
+* startup tecnológica premium
+* diseño futurista
+* experiencia interactiva moderna
+* motion design elegante
+* landing page cinematográfica
+
+IMPORTANTE:
+
+* SOLO FRONTEND
+* NO backend
+* NO formularios funcionales
+* SOLO contacto por WhatsApp y mail
+* Ultra responsive
+* Excelente experiencia móvil
+* Animaciones fluidas
+* Performance optimizada
+* Código limpio y profesional
+
+STACK:
+
+* React
+* Tailwind CSS
+* Framer Motion
+* GSAP
+* Lenis Smooth Scroll
+* Three.js o React Three Fiber para efectos visuales modernos
+* Lucide Icons
+
+ESTILO GENERAL:
+
+* Fondo oscuro premium
+* Luces eléctricas dinámicas
+* Glow effects
+* Gradientes animados
+* Glassmorphism
+* Motion blur suave
+* Partículas eléctricas
+* Efectos de iluminación futurista
+* Sombras profundas
+* Diseño cinematográfico
+
+PALETA:
+
+* Negro profundo
+* Azul eléctrico
+* Cyan brillante
+* Amarillo eléctrico
+* Blanco suave
+
+TIPOGRAFÍA:
+
+* Moderna
+* Minimalista
+* Elegante
+* Impactante
+* Mucho espacio visual
+* Jerarquía clara
+
+QUIERO EFECTOS VISUALES AVANZADOS COMO:
+
+1. HERO SECTION CINEMATOGRÁFICO
+
+* Fondo animado interactivo
+* Electricidad moviéndose suavemente
+* Partículas luminosas
+* Glow reactivo al mouse
+* Efectos de parallax
+* Texto con aparición animada premium
+* Imagen/visual 3D moderna relacionada con electricidad
+* Luces animadas suaves
+* Transiciones cinematográficas
+
+HEADLINE:
+“Soluciones eléctricas modernas, rápidas y profesionales.”
+
+SUBTEXTO:
+Servicio profesional de instalaciones, mantenimiento y emergencias eléctricas.
+
+BOTONES:
+
+* WhatsApp
+* Email
+
+Los botones deben tener:
+
+* hover glow
+* animación magnética
+* efecto de iluminación
+* microinteracciones premium
+
+2. NAVBAR PREMIUM
+
+* Transparente al inicio
+* Blur glassmorphism
+* Sticky elegante
+* Animaciones suaves
+* Cambio de color al scroll
+* Hover moderno
+
+3. SECCIÓN SERVICIOS INTERACTIVA
+   Crear cards MUY modernas con:
+
+* efecto tilt 3D
+* glow dinámico
+* hover avanzado
+* animaciones suaves
+* íconos animados
+
+SERVICIOS:
+
+* Instalaciones eléctricas
+* Mantenimiento y reparación
+* Emergencias eléctricas
+
+Cada card debe reaccionar suavemente al movimiento del mouse.
+
+4. EFECTOS VISUALES
+   Agregar:
+
+* scroll animations
+* reveal animations
+* motion transitions
+* background gradients animados
+* partículas eléctricas
+* rayos sutiles
+* líneas de energía
+* luces ambientales
+
+5. EXPERIENCIA PREMIUM
+   La navegación debe sentirse:
+
+* ultra fluida
+* moderna
+* elegante
+* rápida
+* tecnológica
+
+6. SECCIÓN “POR QUÉ ELEGIRNOS”
+   Hacerla visualmente increíble:
+
+* estadísticas animadas
+* iconografía premium
+* animaciones al aparecer
+* diseño tipo dashboard futurista
+
+7. CTA FINAL ESPECTACULAR
+   Una sección visualmente MUY fuerte:
+   “¿Necesitás asistencia eléctrica inmediata?”
+
+Con:
+
+* fondo animado
+* glow dinámico
+* botones enormes
+* iluminación cinematográfica
+
+8. FOOTER PREMIUM
+   Minimalista pero elegante.
+   Agregar:
+
+* logo
+* redes ficticias visuales
+* iluminación sutil
+* líneas modernas
+
+LOGO:
+Diseñá un logo MUY moderno y premium integrado dentro de la web.
+
+EL LOGO DEBE:
+
+* verse tecnológico
+* minimalista
+* tener un rayo o energía eléctrica
+* incluir iniciales ML
+* tener glow sutil
+* estilo startup futurista
+
+DATOS:
+Nombre:
+Matías Sebastián Ludovici
+
+Email:
+[matiludo095@gmail.com](mailto:matiludo095@gmail.com)
+
+WhatsApp:
++54 2622 225260
+
+MUY IMPORTANTE:
+NO quiero una landing page genérica.
+NO quiero diseño típico de electricista clásico.
+QUIERO una experiencia visual premium y futurista que parezca hecha por una agencia top internacional.
+
+Debe verse:
+
+* moderna
+* impactante
+* tecnológica
+* cinematográfica
+* muy interactiva
+* elegante
+* extremadamente profesional
+
+La prioridad absoluta es:
+
+1. Impacto visual
+2. Fluidez
+3. Interactividad
+4. Experiencia premium
+5. Buen DOM y responsive
+
+La web debe impresionar al cliente apenas entra.
