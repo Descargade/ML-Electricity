@@ -30,7 +30,7 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground/60 gap-4">
         <p>&copy; {new Date().getFullYear()} Matías Sebastián Ludovici. Todos los derechos reservados.</p>
-        <p>San Rafael, Mendoza, Argentina</p>
+        <p>San Carlos, Mendoza, Argentina</p>
       </div>
     </footer>
   );
