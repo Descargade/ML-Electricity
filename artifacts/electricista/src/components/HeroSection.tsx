@@ -202,7 +202,7 @@ export function HeroSection() {
         {/* Badge */}
         <div className="hero-tag opacity-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass-panel mb-10 border border-primary/30 text-primary text-sm font-medium tracking-widest uppercase">
           <Zap className="w-4 h-4" />
-          <span>Electricista Certificado — San Rafael, Mendoza</span>
+          <span>Electricista Certificado — San Carlos, Mendoza</span>
         </div>
 
         {/* Title */}
